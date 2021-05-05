@@ -1,0 +1,32 @@
+// @import "variables";
+
+$primary: #77f;
+$secondary: #aaf;
+$background: #225;
+
+*{
+    margin: 20px;
+}
+
+.title1{
+    color: $primary;
+}
+
+.title2{
+    color:  $secondary;
+}
+
+.line{
+    background-color: $secondary;
+    width: 500px;
+    height: 5px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: $background;
+}

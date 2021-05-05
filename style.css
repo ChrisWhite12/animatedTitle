@@ -1,0 +1,49 @@
+* {
+  margin: 20px;
+}
+
+@keyframes line_expand {
+    from { 
+        transform: scaleX(0); 
+        
+    }
+    to   { transform: scaleX(1); }
+  }
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {opacity: 1;}
+}
+
+.title1 {
+  color: #77f;
+  animation: fade_in linear 4s 2s both;
+  opacity: 0;
+}
+
+.title2 {
+  color: #aaf;
+  animation: fade_in linear 4s 2s both;
+  opacity: 0;
+}
+
+.line {
+  background-color: #aaf;
+  width: 500px;
+  height: 5px;
+  animation: line_expand 4s 2s both;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+  background-color: #225;
+}
+
+/*# sourceMappingURL=style.css.map */
